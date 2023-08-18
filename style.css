@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #abb2b9 ;
+    color: #fff;
+    font-family: 'VT323', monospace;
+}
+
+
+.crud{
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+    color: #17202a ;
+}
+
+input {
+    width: 100%;
+    height: 30%;
+    outline: none;
+    border: none;
+    background: #f8f9f9 ;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+input:focus {
+    background:  #d5d8dc  ;
+    transform: scale(1.1);
+}
+
+.price input {
+    width: 20%;
+}
+
+
+#DeleteAll{
+    margin: 20px 0;
+}
+
+button {
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #4c33dc;
+    border-radius: 20px;
+}
+
+button:hover{
+    background: #0400d3;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th{
+    text-transform: uppercase;
+}
